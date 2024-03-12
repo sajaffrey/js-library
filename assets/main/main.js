@@ -1,5 +1,5 @@
-// Your custom JavaScript using third-party libraries
-    // Example: Initialize Slick slider
+//JavaScript using third-party libraries
+    // Initialize Slick slider
     $(document).ready(function(){
         $('.slider').slick({
           dots: true,
