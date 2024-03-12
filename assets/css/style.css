@@ -1,71 +1,71 @@
 /* Mobile-first responsive styles */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: antiquewhite;
-      }
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: antiquewhite;
+    }
 
-      /* Hide the scrollbar */
+    /* Hide the scrollbar */
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .navbar {
-  background-color: #69503b;
-  padding: 20px 0;
+background-color: #69503b;
+padding: 20px 0;
 }
 
 .licontainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
 }
 
 .logo a {
-  text-decoration: none;
-  color: #d5caca;
-  font-size: 24px;
-  font-weight: bold;
+text-decoration: none;
+color: #d5caca;
+font-size: 24px;
+font-weight: bold;
 }
 
 .nav-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
 }
 
 .nav-links li {
-  margin-right: 20px;
+margin-right: 20px;
 }
 
 .nav-links li a {
-  text-decoration: none;
-  color: #d5caca;
-  font-size: 16px;
+text-decoration: none;
+color: #d5caca;
+font-size: 16px;
 }
 
 .nav-links li a:hover {
-  color: #ea9431;
+color: #ea9431;
 }
+    .container {
+      max-width: 100%;
+      padding: 20px;
+    }
+    .slider {
+      margin: 20px auto;
+    }
+    .slider img {
+      max-width: 100%;
+      height: auto;
+    }
+    /* Media query for desktop */
+    @media screen and (min-width: 768px) {
       .container {
-        max-width: 100%;
-        padding: 20px;
+        max-width: 768px;
       }
-      .slider {
-        margin: 20px auto;
-      }
-      .slider img {
-        max-width: 100%;
-        height: auto;
-      }
-      /* Media query for desktop */
-      @media screen and (min-width: 768px) {
-        .container {
-          max-width: 768px;
-        }
-      }
+    }
