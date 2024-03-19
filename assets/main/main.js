@@ -8,6 +8,7 @@
       });
     });
 
+    //add to cart feature pop up
     function addToCart(productName, productPrice) {
       alert(productName + " added to cart. Price: $" + productPrice);
   }
