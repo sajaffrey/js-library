@@ -7,3 +7,8 @@
         autoplaySpeed: 1000
       });
     });
+
+    function addToCart(productName, productPrice) {
+      alert(productName + " added to cart. Price: $" + productPrice);
+  }
+  
